@@ -1,0 +1,57 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "MyPackage",
+        "printedName": "MyPackage",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HelloLibrary",
+        "printedName": "HelloLibrary",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hello",
+            "printedName": "hello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary05HelloB0V5helloSSyFZ",
+            "mangledName": "$s9MyLibrary05HelloB0V5helloSSyFZ",
+            "moduleName": "MyLibrary",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9MyLibrary05HelloB0V",
+        "mangledName": "$s9MyLibrary05HelloB0V",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
